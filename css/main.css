@@ -1,0 +1,230 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    background: rgb(255, 216, 210);
+    background: linear-gradient(180deg, rgba(255, 216, 210, 1) 2%, rgba(255, 230, 191, 1) 35%, rgba(247, 226, 255, 1) 66%, rgba(226, 255, 252, 1) 98%);
+}
+
+
+.container {
+    max-width: 1600px;
+    margin: auto;
+    height: auto;
+    position: relative;
+    overflow-y: hidden;
+}
+
+
+
+
+
+.row {
+    position: relative;
+    padding-bottom: 300%;
+    width: 70%;
+    margin: 0 auto;
+}
+
+img {
+    position: absolute;
+}
+
+.gameboy {
+    z-index: 50;
+    max-width: 50%;
+    left: 27%;
+    top: .5%;
+}
+
+.main_p {
+    z-index: 10;
+    max-width: 80%;
+    top: 12%;
+    left: 11%;
+}
+
+.skill_title {
+    z-index: 35;
+    max-width: 45%;
+    top: 18%;
+    left: 10%;
+}
+
+.sec_p1 {
+    z-index: 30;
+    max-width: 45%;
+    top: 30%;
+    left: -5%;
+}
+
+.sec_p2 {
+    z-index: 35;
+    max-width: 45%;
+    top: 39%;
+    left: 27%;
+}
+
+.sec_p3 {
+    z-index: 30;
+    max-width: 45%;
+    top: 33%;
+    left: 70%;
+}
+
+.lid1 {
+    z-index: 40;
+    max-width: 30%;
+    top: 27%;
+    left: 3%;
+}
+
+.pot_green {
+    z-index: 30;
+    max-width: 36%;
+    top: 28%;
+    left: 0%;
+}
+
+.brick{
+    z-index: 35;
+    max-width: 21%;
+    top: 25%;
+    left: 8%;
+    display: none;
+}
+
+.skill_board_s{
+    z-index: 45;
+    max-width: 25%;
+    top: 33.5%;
+    left: -7%;
+}
+
+.lid2 {
+    z-index: 45;
+    max-width: 30%;
+    top: 36%;
+    left: 35%;
+}
+
+.pot_red {
+    z-index: 40;
+    max-width: 36%;
+    top: 37%;
+    left: 32%;
+}
+
+.childern_book{
+    z-index: 43;
+    max-width: 21%;
+    top: 34.5%;
+    left: 40%;
+    display: none;
+}
+
+.skill_board_i{
+    z-index: 45;
+    max-width: 25%;
+    top: 42.5%;
+    left: 25%;
+}
+
+.lid3 {
+    z-index: 40;
+    max-width: 30%;
+    top: 30%;
+    left: 79%;
+}
+
+.pot_gray {
+    z-index: 30;
+    max-width: 36%;
+    top: 31%;
+    left: 76%;
+}
+
+.sketchpad{
+    z-index: 35;
+    max-width: 21%;
+    top: 27%;
+    left: 85%;
+    display: none;
+}
+
+.skill_board_b{
+    z-index: 38;
+    max-width: 25%;
+    top: 36.5%;
+    left: 68%;
+}
+
+.collect_board{
+    z-index: 38;
+    max-width: 90%;
+    top: 48.5%;
+    left: 7%;
+}
+
+.thd-p{
+    z-index: 60;
+    max-width: 90%;
+    top: 63%;
+    left: 0%;
+}
+.toy_box{
+    z-index: 60;
+    max-width: 55%;
+    top: 61%;
+    left: 20%;
+}
+
+.contact_title{
+    z-index: 60;
+    max-width: 63%;
+    top: 71.5%;
+    left: -10%;
+}
+.four_p1{
+    z-index: 60;
+    max-width: 45%;
+    top: 86%;
+    left: -5%;
+}
+
+.four_p2{
+    z-index: 60;
+    max-width: 45%;
+    top: 90%;
+    left: 48%;
+}
+
+.phone{
+    z-index: 60;
+    max-width: 30%;
+    top: 84.5%;
+    left: 5%;
+}
+
+.mailbox{
+    z-index: 60;
+    max-width: 29%;
+    top: 82.2%;
+    left: 56%;
+}
+
+.contact_board1{
+    z-index: 70;
+    max-width: 25%;
+    top: 89.5%;
+    left: -6%;
+}
+
+.contact_board2{
+    z-index: 70;
+    max-width: 25%;
+    top: 93.5%;
+    left: 47%;
+}
+
