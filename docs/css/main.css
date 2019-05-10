@@ -342,25 +342,70 @@ img {
     transform-origin: 0% 0%;
 }
 
-.contact_w_m {
+.contact_w_p {
     position: absolute;
     z-index: 99;
-    top: 88.6%;
-    left: 0.5%;
+    top: 88.5%;
+    left: -2.5%;
     font-size: 6vw;
     transform: matrix(1, 0.585, 0, 1, 0, 0);
     transform-origin: 0% 0%;
 }
 
-.contact_w_p {
+.contact_w_m {
     position: absolute;
     z-index: 99;
-    top: 92.2%;
-    left: 48.3%;
+    top: 92.8%;
+    left: 52.1%;
     font-size: 6vw;
     transform: matrix(1, 0.585, 0, 1, 0, 0);
     transform-origin: 0% 0%;
 }
+
+/*文字的RWD*/
+
+
+
+/*@media screen and (max-width: 2559px) and (min-width:2560px){*/
+    /*.skill_w, .collect_w, .contact_w {*/
+        /*font-size: 7vw;*/
+    /*}*/
+
+    /*.skill_w_s, .skill_w_i, .skill_w_b {*/
+        /*font-size: 1.8vw;*/
+    /*}*/
+
+    /*.skill_w_s {*/
+        /*width: 7vw;*/
+    /*}*/
+
+    /*.skill_w_i {*/
+        /*width: 8vw;*/
+    /*}*/
+
+    /*.skill_w_b {*/
+        /*width: 9vw;*/
+    /*}*/
+
+    /*.skill_w_sc, .skill_w_ic, .skill_w_bc {*/
+        /*font-size: 1.2vw;*/
+        /*width: 6.5vw;*/
+    /*}*/
+
+    /*.contact_w_p, .contact_w_m {*/
+        /*font-size: 3.8vw;*/
+    /*}*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
 
 
 
