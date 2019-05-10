@@ -224,3 +224,58 @@ img {
     left: 47%;
 }
 
+/*文字*/
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Abel', sans-serif;
+}
+
+.skill{
+    position: absolute;
+    top: 16%;
+    left: 13%;
+    z-index: 99;
+    font-size: 7em;
+    transform: matrix( 1, 0.6, 0, 1, 0, 0 );
+    transform-origin: 0% 0%;
+}
+@media screen and (min-width: 1000px) and (max-width: 1120px){
+    .skill{
+        font-size: 7.5em;
+    }
+}
+
+@media screen and (min-width: 1120px){
+    .skill{
+        font-size: 8em;
+    }
+}
+
+@media screen and (min-width: 1144px) and (max-width: 1324px){
+    .skill{
+        font-size: 9em;
+    }
+}
+
+@media screen and (min-width: 1300px){
+    .skill{
+        font-size: 9.5em;
+    }
+}
+
+@media screen and (min-width: 1439px){
+    .skill{
+        font-size: 10em;
+    }
+}@media screen and (min-width: 1600px){
+    .skill{
+        font-size: 11em;
+    }
+}
+
+
+
+
+
+
+
