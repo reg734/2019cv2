@@ -3,10 +3,8 @@ html, body {
 }
 
 body {
-    background: rgb(255, 216, 210);
-    background: linear-gradient(180deg, rgba(255, 216, 210, 1) 2%, rgba(255, 230, 191, 1) 35%, rgba(247, 226, 255, 1) 66%, rgba(226, 255, 252, 1) 98%);
+    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
 }
-
 
 .container {
     max-width: 1600px;
@@ -15,10 +13,6 @@ body {
     position: relative;
     overflow-y: hidden;
 }
-
-
-
-
 
 .row {
     position: relative;
@@ -87,7 +81,7 @@ img {
     left: 0%;
 }
 
-.brick{
+.brick {
     z-index: 35;
     max-width: 21%;
     top: 25%;
@@ -95,7 +89,7 @@ img {
     display: none;
 }
 
-.skill_board_s{
+.skill_board_s {
     z-index: 45;
     max-width: 25%;
     top: 33.5%;
@@ -116,7 +110,7 @@ img {
     left: 32%;
 }
 
-.childern_book{
+.childern_book {
     z-index: 43;
     max-width: 21%;
     top: 34.5%;
@@ -124,7 +118,7 @@ img {
     display: none;
 }
 
-.skill_board_i{
+.skill_board_i {
     z-index: 45;
     max-width: 25%;
     top: 42.5%;
@@ -145,7 +139,7 @@ img {
     left: 76%;
 }
 
-.sketchpad{
+.sketchpad {
     z-index: 35;
     max-width: 21%;
     top: 27%;
@@ -153,75 +147,77 @@ img {
     display: none;
 }
 
-.skill_board_b{
+.skill_board_b {
     z-index: 38;
     max-width: 25%;
     top: 36.5%;
     left: 68%;
 }
 
-.collect_board{
+.collect_board {
     z-index: 38;
     max-width: 90%;
     top: 48.5%;
     left: 7%;
 }
 
-.thd-p{
+.thd-p {
     z-index: 60;
     max-width: 90%;
     top: 63%;
     left: 0%;
 }
-.toy_box{
+
+.toy_box {
     z-index: 60;
     max-width: 55%;
     top: 61%;
     left: 20%;
 }
 
-.contact_title{
+.contact_title {
     z-index: 60;
     max-width: 63%;
     top: 71.5%;
     left: -10%;
 }
-.four_p1{
+
+.four_p1 {
     z-index: 60;
     max-width: 45%;
     top: 86%;
-    left: -5%;
+    left: -3%;
 }
 
-.four_p2{
+.four_p2 {
     z-index: 60;
     max-width: 45%;
     top: 90%;
     left: 48%;
 }
 
-.phone{
+.phone {
     z-index: 60;
     max-width: 30%;
     top: 84.5%;
-    left: 5%;
+    left: 6%;
 }
 
-.mailbox{
+.mailbox {
     z-index: 60;
     max-width: 29%;
     top: 82.2%;
     left: 56%;
 }
 
-.contact_board1{
+.contact_board1 {
     z-index: 70;
     max-width: 25%;
     top: 89.5%;
-    left: -6%;
+    left: -4%;
 }
 
-.contact_board2{
+.contact_board2 {
     z-index: 70;
     max-width: 25%;
     top: 93.5%;
