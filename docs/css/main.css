@@ -6,6 +6,8 @@ body {
     background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
 }
 
+
+
 .container {
     max-width: 1600px;
     margin: auto;
@@ -226,8 +228,8 @@ img {
 
 /*文字*/
 
-.font_abel {
-    font-family: 'Abel', sans-serif;
+.font_serif {
+    font-family:  sans-serif;
 }
 
 .font_noto {
@@ -237,9 +239,9 @@ img {
 .skill_w {
     position: absolute;
     z-index: 99;
-    top: 16%;
-    left: 12%;
-    font-size: 11vw;
+    top: 17.2%;
+    left: 11%;
+    font-size: 9vw;
     transform: matrix(1, 0.585, 0, 1, 0, 0);
     transform-origin: 0% 0%;
 }
@@ -247,11 +249,11 @@ img {
 .skill_w_s {
     position: absolute;
     z-index: 99;
-    top: 33.8%;
-    left: -4%;
+    top: 34%;
+    left: -5%;
     word-break: keep-all;
-    font-size: 2.8vw;
-    width: 11vw;
+    font-size: 2.5vw;
+    width: 12vw;
     text-align: center;
     transform: matrix(1, 0.585, 0, 1, 0, 0);
     transform-origin: 0% 0%;
@@ -273,11 +275,11 @@ img {
 .skill_w_i {
     position: absolute;
     z-index: 99;
-    top: 42.5%;
-    left: 26.3%;
+    top: 42.7%;
+    left: 25.3%;
     word-break: keep-all;
-    font-size: 2.8vw;
-    width: 13vw;
+    font-size: 2.5vw;
+    width: 14vw;
     text-align: center;
     transform: matrix(1, 0.585, 0, 1, 0, 0);
     transform-origin: 0% 0%;
@@ -299,10 +301,10 @@ img {
 .skill_w_b {
     position: absolute;
     z-index: 99;
-    top: 36.3%;
+    top: 37%;
     left: 68%;
     word-break: keep-all;
-    font-size: 2.8vw;
+    font-size: 2vw;
     width: 15vw;
     text-align: center;
     transform: matrix(1, 0.585, 0, 1, 0, 0);
@@ -325,9 +327,9 @@ img {
 .collect_w {
     position: absolute;
     z-index: 99;
-    top: 46.9%;
-    left: 12.5%;
-    font-size: 11vw;
+    top: 47.5%;
+    left: 7.5%;
+    font-size: 9vw;
     transform: matrix(1, 0.585, 0, 1, 0, 0);
     transform-origin: 0% 0%;
 }
@@ -335,9 +337,9 @@ img {
 .contact_w {
     position: absolute;
     z-index: 99;
-    top: 69.1%;
+    top: 70.8%;
     left: -8%;
-    font-size: 11vw;
+    font-size: 8vw;
     transform: matrix(1, 0.585, 0, 1, 0, 0);
     transform-origin: 0% 0%;
 }
@@ -345,9 +347,9 @@ img {
 .contact_w_p {
     position: absolute;
     z-index: 99;
-    top: 88.5%;
+    top: 89.2%;
     left: -2.5%;
-    font-size: 6vw;
+    font-size: 4.5vw;
     transform: matrix(1, 0.585, 0, 1, 0, 0);
     transform-origin: 0% 0%;
 }
@@ -355,46 +357,44 @@ img {
 .contact_w_m {
     position: absolute;
     z-index: 99;
-    top: 92.8%;
+    top: 93.7%;
     left: 52.1%;
-    font-size: 6vw;
+    font-size: 4.5vw;
     transform: matrix(1, 0.585, 0, 1, 0, 0);
     transform-origin: 0% 0%;
 }
 
 /*文字的RWD*/
 
-
-
 /*@media screen and (max-width: 2559px) and (min-width:2560px){*/
-    /*.skill_w, .collect_w, .contact_w {*/
-        /*font-size: 7vw;*/
-    /*}*/
+/*.skill_w, .collect_w, .contact_w {*/
+/*font-size: 7vw;*/
+/*}*/
 
-    /*.skill_w_s, .skill_w_i, .skill_w_b {*/
-        /*font-size: 1.8vw;*/
-    /*}*/
+/*.skill_w_s, .skill_w_i, .skill_w_b {*/
+/*font-size: 1.8vw;*/
+/*}*/
 
-    /*.skill_w_s {*/
-        /*width: 7vw;*/
-    /*}*/
+/*.skill_w_s {*/
+/*width: 7vw;*/
+/*}*/
 
-    /*.skill_w_i {*/
-        /*width: 8vw;*/
-    /*}*/
+/*.skill_w_i {*/
+/*width: 8vw;*/
+/*}*/
 
-    /*.skill_w_b {*/
-        /*width: 9vw;*/
-    /*}*/
+/*.skill_w_b {*/
+/*width: 9vw;*/
+/*}*/
 
-    /*.skill_w_sc, .skill_w_ic, .skill_w_bc {*/
-        /*font-size: 1.2vw;*/
-        /*width: 6.5vw;*/
-    /*}*/
+/*.skill_w_sc, .skill_w_ic, .skill_w_bc {*/
+/*font-size: 1.2vw;*/
+/*width: 6.5vw;*/
+/*}*/
 
-    /*.contact_w_p, .contact_w_m {*/
-        /*font-size: 3.8vw;*/
-    /*}*/
+/*.contact_w_p, .contact_w_m {*/
+/*font-size: 3.8vw;*/
+/*}*/
 /*}*/
 
 
