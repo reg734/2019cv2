@@ -7,8 +7,8 @@
   <title>Reg's resume</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
-  <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet">
+  <script src="js/jquery-3.3.1.js"></script>
 </head>
 <body>
 <div class="container">
@@ -20,8 +20,8 @@
     <!--skill_pillar1-->
     <img src="img/second_pillar1.png" alt="" class="sec_p1">
     <!--pot_green_start-->
-    <img src="img/pot_lid.png" alt="" class="lid1">
-    <img src="img/pot_green.png" alt="" class="pot_green">
+    <img src="img/pot_lid.png" alt="" class="lid1 shake pot1">
+    <img src="img/pot_green.png" alt="" class="pot_green shake pot1">
     <img src="img/toy_brick.png" alt="" class="brick">
     <!--pot_green_end-->
     <img src="img/skill_board.png" alt="" class="skill_board_s">
@@ -31,8 +31,8 @@
     <!--skill_pillar2-->
     <img src="img/second_pillar1.png" alt="" class="sec_p2">
     <!--pot_red_start-->
-    <img src="img/pot_lid.png" alt="" class="lid2">
-    <img src="img/pot_red.png" alt="" class="pot_red">
+    <img src="img/pot_lid.png" alt="" class="lid2 shake pot2">
+    <img src="img/pot_red.png" alt="" class="pot_red shake pot2">
     <img src="img/childern_book.png" alt="" class="childern_book">
     <!--pot_red_end-->
     <img src="img/skill_board.png" alt="" class="skill_board_i">
@@ -42,8 +42,8 @@
     <!--skill_pillar3-->
     <img src="img/second_pillar2.png" alt="" class="sec_p3">
     <!--pot_gray_start-->
-    <img src="img/pot_lid.png" alt="" class="lid3">
-    <img src="img/pot_gray.png" alt="" class="pot_gray">
+    <img src="img/pot_lid.png" alt="" class="lid3 shake pot3">
+    <img src="img/pot_gray.png" alt="" class="pot_gray shake pot3">
     <img src="img/sketchpad.png" alt="" class="sketchpad">
     <!--pot_red_end-->
     <img src="img/skill_board.png" alt="" class="skill_board_b">
@@ -70,4 +70,31 @@
   </div>
 </div>
 </body>
+<script>
+$(document).ready(function () {
+    $('.pot1').click(function () {
+        $('.lid1').removeClass('shake');
+        $('.pot_green').removeClass('shake');
+        $('.lid1').addClass('open');
+        $('.brick').addClass('grow')
+    });
+
+    $('.pot2').click(function () {
+        $('.lid2').removeClass('shake');
+        $('.pot_red').removeClass('shake');
+        $('.lid2').addClass('open');
+        $('.childern_book').addClass('grow')
+    });
+
+    $('.pot3').click(function () {
+        $('.lid3').removeClass('shake');
+        $('.pot_gray').removeClass('shake');
+        $('.lid3').addClass('open');
+        $('.sketchpad').addClass('grow')
+    });
+})
+
+</script>
+
+
 </html>
