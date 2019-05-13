@@ -252,7 +252,6 @@ img {
     left: -5%;
     word-break: keep-all;
     font-size: 2.5vw;
-    width: 12vw;
     text-align: center;
     transform: matrix(1, 0.585, 0, 1, 0, 0);
     transform-origin: 0% 0%;
@@ -262,10 +261,9 @@ img {
     position: absolute;
     z-index: 99;
     top: 36.8%;
-    left: -4%;
+    left: -2.5%;
     word-break: keep-all;
     font-size: 2vw;
-    width: 11vw;
     text-align: center;
     transform: matrix(1, 0.585, 0, 1, 0, 0);
     transform-origin: 0% 0%;
@@ -274,11 +272,10 @@ img {
 .skill_w_i {
     position: absolute;
     z-index: 99;
-    top: 42.7%;
-    left: 25.3%;
+    top: 43%;
+    left: 26.3%;
     word-break: keep-all;
     font-size: 2.5vw;
-    width: 14vw;
     text-align: center;
     transform: matrix(1, 0.585, 0, 1, 0, 0);
     transform-origin: 0% 0%;
@@ -288,10 +285,9 @@ img {
     position: absolute;
     z-index: 99;
     top: 45.7%;
-    left: 27.6%;
+    left: 28%;
     word-break: keep-all;
     font-size: 2vw;
-    width: 11vw;
     text-align: center;
     transform: matrix(1, 0.585, 0, 1, 0, 0);
     transform-origin: 0% 0%;
@@ -300,11 +296,10 @@ img {
 .skill_w_b {
     position: absolute;
     z-index: 99;
-    top: 37%;
-    left: 68%;
+    top: 37.3%;
+    left: 69.5%;
     word-break: keep-all;
     font-size: 2vw;
-    width: 15vw;
     text-align: center;
     transform: matrix(1, 0.585, 0, 1, 0, 0);
     transform-origin: 0% 0%;
@@ -313,11 +308,10 @@ img {
 .skill_w_bc {
     position: absolute;
     z-index: 99;
-    top: 39.6%;
-    left: 70%;
+    top: 39.7%;
+    left: 72.3%;
     word-break: keep-all;
     font-size: 2vw;
-    width: 11vw;
     text-align: center;
     transform: matrix(1, 0.585, 0, 1, 0, 0);
     transform-origin: 0% 0%;
@@ -327,7 +321,7 @@ img {
     position: absolute;
     z-index: 99;
     top: 47.5%;
-    left: 7.5%;
+    left: 8.5%;
     font-size: 9vw;
     transform: matrix(1, 0.585, 0, 1, 0, 0);
     transform-origin: 0% 0%;
@@ -336,8 +330,8 @@ img {
 .contact_w {
     position: absolute;
     z-index: 99;
-    top: 70.8%;
-    left: -8%;
+    top: 70.6%;
+    left: -9%;
     font-size: 8vw;
     transform: matrix(1, 0.585, 0, 1, 0, 0);
     transform-origin: 0% 0%;
@@ -356,11 +350,40 @@ img {
 .contact_w_m {
     position: absolute;
     z-index: 99;
-    top: 93.7%;
-    left: 52.1%;
+    top: 93.6%;
+    left: 51.4%;
     font-size: 4.5vw;
     transform: matrix(1, 0.585, 0, 1, 0, 0);
     transform-origin: 0% 0%;
+}
+
+@media screen and (min-width: 1599px){
+    .skill_w{
+        font-size: 145px;
+    }
+    .skill_w_s,.skill_w_i{
+        font-size: 41px;
+    }
+
+    .skill_w_b{
+        font-size:32px;
+    }
+
+
+    .skill_w_sc,.skill_w_ic,.skill_w_bc{
+        font-size: 35px;
+    }
+
+    .collect_w{
+        font-size: 140px;
+    }
+    .contact_w{
+        font-size: 130px;
+    }
+    .contact_w_p,.contact_w_m{
+        font-size: 73px;
+    }
+
 }
 
 /*鍋子的動畫*/
