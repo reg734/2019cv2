@@ -33,6 +33,14 @@ img {
     top: .5%;
 }
 
+.cv{
+    z-index: 55;
+    max-width: 10%;
+    left: 39%;
+    top: 9.5%;
+    cursor: pointer;
+}
+
 .main_p {
     z-index: 10;
     max-width: 80%;
@@ -73,6 +81,8 @@ img {
     max-width: 30%;
     top: 27%;
     left: 3%;
+    cursor: pointer;
+
 }
 
 .pot_green {
@@ -80,6 +90,7 @@ img {
     max-width: 36%;
     top: 28%;
     left: 0%;
+    cursor: pointer;
 }
 
 .brick {
@@ -102,6 +113,7 @@ img {
     max-width: 30%;
     top: 36%;
     left: 35%;
+    cursor: pointer;
 }
 
 .pot_red {
@@ -109,6 +121,7 @@ img {
     max-width: 36%;
     top: 37%;
     left: 32%;
+    cursor: pointer;
 }
 
 .childern_book {
@@ -131,6 +144,7 @@ img {
     max-width: 30%;
     top: 30%;
     left: 79%;
+    cursor: pointer;
 }
 
 .pot_gray {
@@ -138,6 +152,7 @@ img {
     max-width: 36%;
     top: 31%;
     left: 76%;
+    cursor: pointer;
 }
 
 .sketchpad {
@@ -202,6 +217,8 @@ img {
     max-width: 30%;
     top: 84.5%;
     left: 6%;
+    cursor: pointer;
+
 }
 
 .mailbox {
@@ -209,6 +226,7 @@ img {
     max-width: 29%;
     top: 82.2%;
     left: 56%;
+    cursor: pointer;
 }
 
 .contact_board1 {
@@ -357,6 +375,8 @@ img {
     transform-origin: 0% 0%;
 }
 
+/*文字的rwd*/
+
 @media screen and (min-width: 1599px){
     .skill_w{
         font-size: 145px;
@@ -385,6 +405,25 @@ img {
     }
 
 }
+
+/*cv的動畫*/
+
+.cv_a{
+    animation-name: cv_a;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes cv_a {
+    0% {
+        top: 9.5%;
+    }
+    100% {
+        top: 10%;
+    }
+}
+
 
 /*鍋子的動畫*/
 
